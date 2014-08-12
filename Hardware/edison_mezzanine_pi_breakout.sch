@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17232,26 +17232,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="22OHM1/10W1%(0603)" prefix="R" uservalue="yes">
-<description>RES-08698</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08698" constant="no"/>
-<attribute name="VALUE" value="22" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-DigitalIC">
@@ -20046,7 +20026,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE" value="POWER"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="22OHM1/10W1%(0603)" device="" value="22"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="220">
+<attribute name="PROD_ID" value="RES-07861"/>
+</part>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -20166,7 +20148,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="95.25" y="181.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="95.25" y="176.022" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="78.74" y="167.64"/>
+<instance part="R10" gate="G$1" x="78.74" y="167.64">
+<attribute name="PROD_ID" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND26" gate="1" x="101.6" y="162.56"/>
 </instances>
 <busses>
