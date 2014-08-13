@@ -22620,18 +22620,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="114.3" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="97" style="longdash"/>
 <wire x1="246.38" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="97" style="longdash"/>
 <wire x1="248.92" y1="144.78" x2="114.3" y2="144.78" width="0.1524" layer="97" style="longdash"/>
-<text x="1.016" y="155.956" size="2.032" layer="97">USB Power</text>
-<text x="1.016" y="100.076" size="2.032" layer="97">Vsys Power</text>
-<text x="1.016" y="72.136" size="2.032" layer="97">3.3V Power</text>
-<text x="1.016" y="1.016" size="2.032" layer="97">RPi Breakout</text>
+<text x="1.016" y="155.956" size="2.54" layer="97">USB Power</text>
+<text x="1.016" y="100.076" size="2.54" layer="97">Vsys Power</text>
+<text x="1.016" y="72.136" size="2.54" layer="97">3.3V Power</text>
+<text x="1.016" y="1.016" size="2.54" layer="97">RPi Breakout</text>
 <text x="115.316" y="145.796" size="2.032" layer="97">GPIO Level Shifter</text>
-<text x="115.316" y="100.076" size="2.032" layer="97">UART/SPI Level Shifter</text>
-<text x="115.316" y="36.576" size="2.032" layer="97">I2C Level Shifter</text>
+<text x="115.316" y="100.076" size="2.54" layer="97">UART/SPI Level Shifter</text>
+<text x="115.316" y="36.576" size="2.54" layer="97">I2C Level Shifter</text>
 <wire x1="147.32" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="114.3" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="60.96" y1="0" x2="60.96" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="50.8" y1="154.94" x2="50.8" y2="185.42" width="0.1524" layer="97" style="longdash"/>
-<text x="51.816" y="155.956" size="2.032" layer="97">Power Button</text>
+<text x="51.816" y="155.956" size="2.54" layer="97">Power Button</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
