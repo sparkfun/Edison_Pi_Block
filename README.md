@@ -1,4 +1,4 @@
 Edison_Mezzanine_Pi_Breakout
 ============================
 
-Edison mezzanine board that maps Edison GPIO to the Raspberry Pi's GPIO pins.
+Since the Edison offers a large number of GPIO and communication bus pins, these pins can be mapped to the exact same footprint as the Raspberry Pi's GPIO header. The Edison Pi board lets you use your existing Raspberry Pi peripherals and expansion boards with the Edison!
