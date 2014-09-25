@@ -18685,7 +18685,7 @@ for the logo on the board is tSilk.</description>
 <hole x="2.93" y="1.98" drill="2"/>
 </package>
 <package name="DF40C-70DP-0.4(51)">
-<circle x="7.3" y="1" radius="0.1" width="0.3048" layer="21"/>
+<circle x="7.7" y="1" radius="0.1" width="0.3048" layer="21"/>
 <wire x1="-8.4" y1="1.44" x2="8.4" y2="1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="1.44" x2="8.4" y2="-1.44" width="0.2032" layer="21"/>
 <wire x1="8.4" y1="-1.44" x2="-8.4" y2="-1.44" width="0.2032" layer="21"/>
@@ -18760,6 +18760,10 @@ for the logo on the board is tSilk.</description>
 <smd name="68" x="-6.4" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="16"/>
 <smd name="70" x="-6.8" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC4" x="-7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC3" x="-7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC1" x="7.2" y="1.32" dx="0.2" dy="1.14" layer="16"/>
+<smd name="NC2" x="7.2" y="-1.32" dx="0.2" dy="1.14" layer="16"/>
 </package>
 <package name="DF40-XC-(X.X)-70DS-0.4V(51)">
 <smd name="69" x="-6.8" y="1.32" dx="0.2" dy="1.14" layer="1"/>
@@ -18912,6 +18916,7 @@ for the logo on the board is tSilk.</description>
 <text x="-2.54" y="-86.36" size="1.27" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="33.02" size="1.27" layer="95" align="top-left">&gt;NAME</text>
 <pin name="GP84_SD_CLK_FB" x="43.18" y="-5.08" length="short" rot="R180"/>
+<pin name="DCIN" x="-5.08" y="20.32" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -18925,6 +18930,7 @@ for the logo on the board is tSilk.</description>
 <connect gate="G$1" pin="1.8V" pad="12"/>
 <connect gate="G$1" pin="3.3V@1" pad="8"/>
 <connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
 <connect gate="G$1" pin="FAULT" pad="19"/>
 <connect gate="G$1" pin="FW_RCVR" pad="69"/>
 <connect gate="G$1" pin="GND@1" pad="1"/>
@@ -18997,6 +19003,7 @@ for the logo on the board is tSilk.</description>
 <connect gate="G$1" pin="1.8V" pad="12"/>
 <connect gate="G$1" pin="3.3V@1" pad="8"/>
 <connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
 <connect gate="G$1" pin="FAULT" pad="19"/>
 <connect gate="G$1" pin="FW_RCVR" pad="69"/>
 <connect gate="G$1" pin="GND@1" pad="1"/>
@@ -19069,6 +19076,7 @@ for the logo on the board is tSilk.</description>
 <connect gate="G$1" pin="1.8V" pad="12"/>
 <connect gate="G$1" pin="3.3V@1" pad="8"/>
 <connect gate="G$1" pin="3.3V@2" pad="10"/>
+<connect gate="G$1" pin="DCIN" pad="14"/>
 <connect gate="G$1" pin="FAULT" pad="19"/>
 <connect gate="G$1" pin="FW_RCVR" pad="69"/>
 <connect gate="G$1" pin="GND@1" pad="1"/>
@@ -22112,25 +22120,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>Sparkfun SKU# COM-08229</description>
 <wire x1="-3" y1="1.1" x2="-3" y2="-1.1" width="0.127" layer="51"/>
 <wire x1="3" y1="1.1" x2="3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="1.75" x2="-3" y2="1.5" width="0.127" layer="21" curve="90"/>
-<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.127" layer="21"/>
-<wire x1="2.75" y1="1.75" x2="3" y2="1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="3" y1="-1.5" x2="2.65" y2="-1.75" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.65" y1="-1.75" x2="-2.75" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1.5" x2="-2.75" y2="-1.75" width="0.127" layer="21" curve="90"/>
-<wire x1="-3" y1="-1.5" x2="-3" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-3" y1="1.1" x2="-3" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3" y1="1.1" x2="3" y2="1.5" width="0.127" layer="21"/>
-<wire x1="3" y1="-1.5" x2="3" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-2.75" y1="1.75" x2="-3" y2="1.5" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="2.75" y1="1.75" x2="3" y2="1.5" width="0.2032" layer="21" curve="-90"/>
+<wire x1="3" y1="-1.5" x2="2.75" y2="-1.75" width="0.2032" layer="21" curve="-90"/>
+<wire x1="2.75" y1="-1.75" x2="-2.75" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-1.5" x2="-2.75" y2="-1.75" width="0.2032" layer="21" curve="90"/>
+<wire x1="-3" y1="-1.5" x2="-3" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-3" y1="1.1" x2="-3" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="3" y1="1.1" x2="3" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.5" x2="3" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
 <wire x1="-2" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
 <wire x1="-1" y1="0" x2="0.1" y2="0.5" width="0.127" layer="51"/>
 <wire x1="0.3" y1="0" x2="2" y2="0" width="0.127" layer="51"/>
-<smd name="P$1" x="-3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<smd name="P$2" x="3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="1" x="-3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="2" x="3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
 <text x="-3" y="2" size="0.762" layer="25">&gt;NAME</text>
 <text x="-3" y="-2.7" size="0.762" layer="27">&gt;VALUE</text>
 </package>
@@ -22365,6 +22373,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.889" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.889" y="-2.032" size="0.4064" layer="27">&gt;Value</text>
 </package>
+<package name="TACTILE_SWITCH-SMD-RIGHT-ANGLE">
+<hole x="0" y="0.9" drill="0.7"/>
+<hole x="0" y="-0.9" drill="0.7"/>
+<smd name="1" x="-1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
+<wire x1="-2" y1="1.2" x2="-2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.2" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-0.7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.5" x2="0.7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-2.1" x2="0.7" y2="-2.1" width="0.127" layer="51"/>
+<wire x1="0.7" y1="-2.1" x2="0.7" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-0.7" y1="-2.1" x2="-0.7" y2="-1.5" width="0.127" layer="51"/>
+<text x="-2" y="1.7" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCH-MOMENTARY-2">
@@ -22416,8 +22442,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="-SMD-1101NE" package="TACTILE-SWITCH-1101NE">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22494,7 +22520,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08247" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SMD-REDUNDANT" package="TACTILE-SWITCH-SMD">
@@ -22504,6 +22532,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="TACTILE-SWITCH-SMD-RIGHT-ANGLE" package="TACTILE_SWITCH-SMD-RIGHT-ANGLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-12265" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -22598,7 +22637,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="-SMD-1101NE" value="POWER"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="TACTILE-SWITCH-SMD-RIGHT-ANGLE" value="POWER"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="220">
 <attribute name="PROD_ID" value="RES-07861"/>
@@ -22609,7 +22648,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v02</text>
 <text x="172.72" y="10.16" size="2.54" layer="94">Shawn Hymel</text>
 <wire x1="114.3" y1="35.56" x2="114.3" y2="71.12" width="0.1524" layer="97" style="longdash"/>
 <wire x1="114.3" y1="71.12" x2="114.3" y2="144.78" width="0.1524" layer="97" style="longdash"/>
@@ -22718,7 +22757,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY7" gate="G$1" x="83.82" y="63.5"/>
 <instance part="GND24" gate="1" x="83.82" y="48.26"/>
 <instance part="GND25" gate="1" x="96.52" y="48.26"/>
-<instance part="S1" gate="G$1" x="93.98" y="167.64"/>
+<instance part="S1" gate="G$1" x="96.52" y="167.64" rot="MR0"/>
 <instance part="R9" gate="G$1" x="91.44" y="177.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="95.25" y="181.3814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="95.25" y="176.022" size="1.778" layer="96" rot="R180"/>
@@ -22726,7 +22765,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R10" gate="G$1" x="78.74" y="167.64">
 <attribute name="PROD_ID" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND26" gate="1" x="101.6" y="162.56"/>
+<instance part="GND26" gate="1" x="104.14" y="162.56"/>
 <instance part="LOGO3" gate="G$1" x="238.76" y="38.1"/>
 </instances>
 <busses>
@@ -22876,10 +22915,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="167.64" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="167.64" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="167.64" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -23493,9 +23532,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="167.64" x2="86.36" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="167.64" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
 <junction x="86.36" y="167.64"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="167.64" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWRBTN#" class="0">
@@ -24282,6 +24321,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U3" gate="G$1" pin="OSC_CLK_OUT_0"/>
 <wire x1="220.98" y1="152.4" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 <label x="223.52" y="152.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DCIN" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="DCIN"/>
+<wire x1="172.72" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="170.18" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="DCIN"/>
+<wire x1="25.4" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
+<label x="22.86" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
