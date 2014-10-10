@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23156,8 +23156,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP1" library="SparkFun-Boards" deviceset="RASPBERRYPI-GPIO" device="PTH"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="PCA9306" device="PCA9306DC-1:1" value="PCA9306"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="1.8V" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="200KOHM1/10W1%(0603)" device="200K" value="200k"/>
@@ -23349,8 +23349,8 @@ from Vsys</text>
 <instance part="C5" gate="G$1" x="157.48" y="160.02"/>
 <instance part="C6" gate="G$1" x="231.14" y="160.02"/>
 <instance part="C7" gate="G$1" x="157.48" y="114.3" smashed="yes">
-<attribute name="NAME" x="159.004" y="117.221" size="1.778" layer="95"/>
-<attribute name="VALUE" x="159.004" y="112.141" size="1.778" layer="96"/>
+<attribute name="NAME" x="158.242" y="117.221" size="1.778" layer="95"/>
+<attribute name="VALUE" x="158.242" y="112.141" size="1.778" layer="96"/>
 </instance>
 <instance part="C11" gate="G$1" x="231.14" y="119.38"/>
 <instance part="GND15" gate="1" x="231.14" y="152.4"/>
