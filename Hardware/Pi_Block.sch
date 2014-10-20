@@ -20608,22 +20608,22 @@ Standard decoupling cap</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="10UF-6.3V-20%(1206)" prefix="C" uservalue="yes">
-<description>CAP-10057&lt;BR&gt;
-Ceramic&lt;br&gt;</description>
+<deviceset name="22UF-6.3V-20%(0805)" prefix="C" uservalue="yes">
+<description>CAP-08402&lt;BR&gt;
+Ceramic&lt;BR&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="1206">
+<device name="" package="0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CAP-10057"/>
-<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="PROD_ID" value="CAP-08402"/>
+<attribute name="VALUE" value="22uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -23179,7 +23179,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(1206)" device="" value="10uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="22UF-6.3V-20%(0805)" device="" value="22uF"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U4" library="Testing" deviceset="TPS62065" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -23191,7 +23191,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="C9" library="SparkFun-Capacitors" deviceset="9.0PF-50V-10%(0603)" device="" value="9.0pF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device=""/>
+<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="" value="1.0uH">
+<attribute name="PROD_ID" value="NDUC-12274"/>
+</part>
 <part name="U$1" library="Testing" deviceset="TXB0108" device=""/>
 <part name="U$2" library="Testing" deviceset="TXB0108" device=""/>
 <part name="U5" library="SparkFun-PowerIC" deviceset="V_REG_MIC5219" device="3.3V" value="MIC5219 3.3V"/>
@@ -23322,7 +23324,11 @@ from Vsys</text>
 <instance part="C9" gate="G$1" x="73.66" y="134.62"/>
 <instance part="C10" gate="G$1" x="7.62" y="134.62"/>
 <instance part="GND19" gate="1" x="66.04" y="109.22"/>
-<instance part="L1" gate="G$1" x="55.88" y="144.78" rot="R90"/>
+<instance part="L1" gate="G$1" x="55.88" y="144.78" smashed="yes" rot="R90">
+<attribute name="PROD_ID" x="55.88" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="50.8" y="147.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="141.732" size="1.778" layer="96"/>
+</instance>
 <instance part="U$1" gate="G$1" x="200.66" y="167.64"/>
 <instance part="U$2" gate="G$1" x="205.74" y="127"/>
 <instance part="U5" gate="G$1" x="53.34" y="86.36" smashed="yes">
