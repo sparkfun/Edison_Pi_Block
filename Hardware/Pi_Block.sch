@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23360,8 +23360,12 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680k">
+<attribute name="PROD_ID" value="RES-12280"/>
+</part>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120k">
+<attribute name="PROD_ID" value="RES-12279"/>
+</part>
 <part name="C9" library="SparkFun-Capacitors" deviceset="9.0PF-50V-10%(0603)" device="" value="9.0pF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -23460,6 +23464,8 @@ to disable
 the power
 LED</text>
 <text x="2.54" y="68.58" size="1.778" layer="97" align="top-left">NOTE: GPIO is 3.3V</text>
+<text x="63.5" y="33.02" size="2.54" layer="97" align="top-left">NOTES:
+ - Board thickness = 0.063 in.</text>
 </plain>
 <instances>
 <instance part="LOGO1" gate="G$1" x="73.66" y="12.7"/>
@@ -23501,8 +23507,12 @@ LED</text>
 <instance part="SUPPLY10" gate="G$1" x="17.78" y="147.32"/>
 <instance part="GND22" gate="1" x="48.26" y="124.46"/>
 <instance part="SUPPLY11" gate="G$1" x="7.62" y="147.32"/>
-<instance part="R7" gate="G$1" x="66.04" y="137.16" rot="R90"/>
-<instance part="R8" gate="G$1" x="66.04" y="119.38" rot="R90"/>
+<instance part="R7" gate="G$1" x="66.04" y="137.16" rot="R90">
+<attribute name="PROD_ID" x="66.04" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="66.04" y="119.38" rot="R90">
+<attribute name="PROD_ID" x="66.04" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="C9" gate="G$1" x="73.66" y="134.62"/>
 <instance part="C10" gate="G$1" x="7.62" y="134.62"/>
 <instance part="GND19" gate="1" x="66.04" y="109.22"/>

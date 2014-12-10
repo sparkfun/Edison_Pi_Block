@@ -6,20 +6,20 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -34,9 +34,9 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -217,6 +217,11 @@ Header</text>
 <wire x1="26.1112" y1="21.1836" x2="25.7048" y2="21.1836" width="0.1524" layer="42"/>
 <wire x1="26.1112" y1="20.7772" x2="25.7048" y2="20.7772" width="0.1524" layer="42"/>
 <wire x1="26.1112" y1="20.3708" x2="25.7048" y2="20.3708" width="0.1524" layer="42"/>
+<wire x1="7.0104" y1="29.21" x2="10.7696" y2="29.21" width="0.254" layer="41"/>
+<wire x1="7.0104" y1="29.3878" x2="7.0104" y2="29.21" width="0.254" layer="41"/>
+<wire x1="7.0104" y1="29.21" x2="7.0104" y2="29.0322" width="0.254" layer="41"/>
+<wire x1="10.7696" y1="29.3624" x2="10.7696" y2="29.21" width="0.254" layer="41"/>
+<wire x1="10.7696" y1="29.21" x2="10.7696" y2="29.0322" width="0.254" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2595,8 +2600,12 @@ design rules under a new name.</description>
 <element name="U4" library="SparkFun-PowerIC" package="WSON-8-PAD" value="TPS62065" x="13.462" y="14.732" rot="R180">
 <attribute name="PROD_ID" value="IC-12273" x="13.462" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R7" library="SparkFun-Resistors" package="0603-RES" value="680k" x="17.78" y="14.732" rot="R90"/>
-<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="120k" x="17.78" y="11.43" rot="R90"/>
+<element name="R7" library="SparkFun-Resistors" package="0603-RES" value="680k" x="17.78" y="14.732" rot="R90">
+<attribute name="PROD_ID" value="RES-12280" x="17.78" y="14.732" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="120k" x="17.78" y="11.43" rot="R90">
+<attribute name="PROD_ID" value="RES-12279" x="17.78" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C9" library="SparkFun-Capacitors" package="0603-CAP" value="9.0pF" x="16.002" y="14.732" rot="R270">
 <attribute name="PROD_ID" value="CAP-09341" x="13.462" y="24.892" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
@@ -4619,8 +4628,8 @@ design rules under a new name.</description>
 </signals>
 <errors>
 <approved hash="19,1,e4a4fc537fdeb8c6"/>
-<approved hash="19,1,ca3a4e5cabf56bec"/>
 <approved hash="19,1,8b777430966b2d53"/>
+<approved hash="19,1,ca3a4e5cabf56bec"/>
 <approved hash="19,1,5984b186af7e477c"/>
 <approved hash="4,1,b2c2b15e90fdc7ac"/>
 <approved hash="4,1,d4a902bdcae7780e"/>
