@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -56,7 +56,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -145,7 +145,7 @@
 <wire x1="28.702" y1="0" x2="22.86" y2="0" width="0.1524" layer="20"/>
 <wire x1="7.62" y1="0" x2="1.778" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="1.778" x2="0" y2="42.672" width="0.1524" layer="20"/>
-<text x="26.67" y="-58.42" size="1.6764" layer="51" ratio="15">Shawn Hymel</text>
+<text x="26.67" y="-66.04" size="1.6764" layer="51" ratio="15">Shawn Hymel</text>
 <hole x="28.575" y="1.905" drill="2"/>
 <hole x="1.905" y="1.905" drill="2"/>
 <hole x="1.905" y="42.545" drill="2"/>
@@ -155,17 +155,17 @@
 <wire x1="30.48" y1="1.778" x2="28.702" y2="0" width="0.1524" layer="20" curve="-90"/>
 <wire x1="1.778" y1="0" x2="0" y2="1.778" width="0.1524" layer="20" curve="-90"/>
 <wire x1="0" y1="42.672" x2="1.778" y2="44.45" width="0.1524" layer="20" curve="-90"/>
-<dimension x1="28.575" y1="1.905" x2="1.905" y2="1.905" x3="15.24" y3="46.99" textsize="1.27" textratio="15" layer="51" dtype="horizontal" unit="inch"/>
-<dimension x1="30.48" y1="1.728" x2="0" y2="2.54" x3="15.24" y3="49.53" textsize="1.27" textratio="15" layer="51" dtype="horizontal" unit="inch"/>
-<dimension x1="1.905" y1="42.545" x2="1.905" y2="1.905" x3="33.02" y3="22.225" textsize="1.27" textratio="15" layer="51" dtype="vertical" unit="inch"/>
-<dimension x1="1.778" y1="44.45" x2="5.08" y2="0" x3="35.56" y3="22.225" textsize="1.27" textratio="15" layer="51" dtype="vertical" unit="inch"/>
+<dimension x1="28.575" y1="1.905" x2="1.905" y2="1.905" x3="15.24" y3="46.99" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="30.48" y1="1.728" x2="0" y2="2.54" x3="15.24" y3="49.53" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="1.905" y1="42.545" x2="1.905" y2="1.905" x3="33.02" y3="22.225" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="1.778" y1="44.45" x2="5.08" y2="0" x3="35.56" y3="22.225" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <rectangle x1="22.098" y1="26.162" x2="30.48" y2="44.45" layer="42" rot="R180"/>
 <rectangle x1="22.098" y1="26.162" x2="30.48" y2="44.45" layer="41" rot="R180"/>
-<text x="29.21" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center">4xM2.0</text>
+<text x="29.21" y="6.35" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center">4xM2.0</text>
 <text x="30.099" y="3.81" size="1.016" layer="1" font="vector" ratio="15" rot="R90">v10</text>
 <wire x1="10.16" y1="-49.53" x2="20.32" y2="-49.53" width="0.1524" layer="20"/>
-<text x="1.016" y="35.56" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">PWR</text>
-<text x="1.524" y="10.16" size="1.016" layer="21" font="vector" ratio="15" rot="R90">POWER</text>
+<text x="1.016" y="35.306" size="1.016" layer="21" font="vector" ratio="15" rot="SR270" align="center">PWR</text>
+<text x="1.016" y="12.7" size="1.016" layer="21" font="vector" ratio="15" rot="SR270" align="center">POWER</text>
 <text x="3.429" y="41.275" size="1.016" layer="21" font="vector" ratio="15" align="center-left">LED
 EN</text>
 <text x="29.972" y="34.544" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270">Pi Block</text>
@@ -203,7 +203,7 @@ EN</text>
 <text x="19.05" y="-38.1" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">CE1</text>
 <text x="19.05" y="-7.62" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">5V</text>
 <text x="17.78" y="-10.16" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">5V</text>
-<text x="25.4" y="-5.08" size="1.778" layer="51" align="top-left">NOTES:
+<text x="-22.86" y="-2.54" size="1.778" layer="51" align="top-left">NOTES:
  - Board thickness = 0.063 in.</text>
 <hole x="15.24" y="-46.482" drill="2"/>
 <text x="15.24" y="-1.016" size="1.016" layer="21" font="vector" ratio="15" align="center">RPi B
@@ -222,6 +222,12 @@ Header</text>
 <wire x1="7.0104" y1="29.21" x2="7.0104" y2="29.0322" width="0.254" layer="41"/>
 <wire x1="10.7696" y1="29.3624" x2="10.7696" y2="29.21" width="0.254" layer="41"/>
 <wire x1="10.7696" y1="29.21" x2="10.7696" y2="29.0322" width="0.254" layer="41"/>
+<wire x1="12.4968" y1="13.7922" x2="12.4968" y2="13.97" width="0.1524" layer="41"/>
+<wire x1="14.4018" y1="15.5956" x2="14.4018" y2="15.7734" width="0.1016" layer="41"/>
+<dimension x1="20.32" y1="-49.53" x2="27.94" y2="44.45" x3="41.148" y3="-2.54" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="10.16" y1="-49.53" x2="20.32" y2="-49.53" x3="15.24" y3="-55.626" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="16.51" y1="-46.482" x2="27.432" y2="44.45" x3="45.466" y3="-1.016" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="15.24" y1="-47.752" x2="20.32" y2="-47.752" x3="17.78" y3="-52.324" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1769,11 +1775,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="PCA9306DC-1:1">
-<wire x1="-1" y1="-1.03" x2="1" y2="-1.03" width="0.08" layer="21"/>
-<wire x1="1" y1="-1.03" x2="1" y2="1.04" width="0.08" layer="21"/>
-<wire x1="1" y1="1.04" x2="-1" y2="1.04" width="0.08" layer="21"/>
-<wire x1="-1" y1="1.04" x2="-1" y2="-1.03" width="0.08" layer="21"/>
-<circle x="-1.26" y="-1.47" radius="0.1923" width="0.08" layer="21"/>
+<wire x1="1" y1="-0.93" x2="1" y2="0.94" width="0.2032" layer="21"/>
+<wire x1="-1" y1="0.94" x2="-1" y2="-0.93" width="0.2032" layer="21"/>
+<circle x="-1.28" y="-1.47" radius="0.1923" width="0.2032" layer="21"/>
 <smd name="1" x="-0.73" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
 <smd name="2" x="-0.23" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
 <smd name="3" x="0.27" y="-1.4462" dx="0.25" dy="0.6016" layer="1"/>
@@ -1992,7 +1996,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.889" y1="1.0668" x2="-0.8382" y2="1.0922" layer="200" rot="R90"/>
 <rectangle x1="-1.9812" y1="0" x2="0.2032" y2="0.0254" layer="200" rot="R90"/>
 <rectangle x1="-2.0066" y1="0" x2="0.1778" y2="0.0254" layer="200" rot="R90"/>
-<circle x="-1.26" y="-1.47" radius="0.1923" width="0.06" layer="51"/>
+<circle x="-1.28" y="-1.47" radius="0.1923" width="0.06" layer="51"/>
+<text x="-1.2" y="2.1" size="0.5" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.2" y="-2.6" size="0.5" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="UFDFN-20">
 <smd name="1" x="-1.8" y="-0.85" dx="1.1" dy="0.2" layer="1" rot="R90" cream="no"/>
@@ -2374,7 +2380,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="Pi_Block">
+<designrules name="Pi_Block *">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -2444,7 +2450,7 @@ design rules under a new name.</description>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
@@ -2550,7 +2556,7 @@ design rules under a new name.</description>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.842" y="1.778" rot="MR0"/>
 <element name="U2" library="Edison" package="EDISON_DAUGHTER" value="EDISON_CONNECTOR_FULLMOUNTING_HOLES" x="27.94" y="3.81" rot="MR0"/>
 <element name="U3" library="Edison" package="DF40C-70DP-0.4(51)" value="EDISON_CONNECTOR_FULLHEADER" x="24.64" y="16.1798" rot="MR90"/>
-<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-1.27" y="-58.42"/>
+<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-1.27" y="-66.04"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.842" y="1.778"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="21.082" y="0.254" rot="MR0"/>
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="5.08"/>
@@ -2670,8 +2676,8 @@ design rules under a new name.</description>
 <element name="U7" library="SparkFun-DigitalIC" package="UFDFN-20" value="TXB0108" x="15.24" y="5.715" rot="R90">
 <attribute name="PROD_ID" value="IC-12292" x="15.24" y="5.715" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-1.27" y="-58.42"/>
-<element name="FRAME3" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-1.27" y="-58.42"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-1.27" y="-66.04"/>
+<element name="FRAME3" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-1.27" y="-66.04"/>
 <element name="TP1" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="8.255" y="41.275" rot="MR0"/>
 </elements>
 <signals>
@@ -2793,7 +2799,7 @@ design rules under a new name.</description>
 <via x="14.224" y="-2.2098" extent="1-16" drill="0.3302"/>
 <via x="13.97" y="-3.556" extent="1-16" drill="0.3302"/>
 <via x="15.748" y="-5.08" extent="1-16" drill="0.3302"/>
-<via x="29.464" y="7.493" extent="1-16" drill="0.3302"/>
+<via x="29.718" y="7.493" extent="1-16" drill="0.3302"/>
 <via x="0.889" y="33.02" extent="1-16" drill="0.3302"/>
 <via x="0.889" y="30.48" extent="1-16" drill="0.3302"/>
 <via x="0.889" y="27.94" extent="1-16" drill="0.3302"/>
@@ -4628,8 +4634,8 @@ design rules under a new name.</description>
 </signals>
 <errors>
 <approved hash="19,1,e4a4fc537fdeb8c6"/>
-<approved hash="19,1,8b777430966b2d53"/>
 <approved hash="19,1,ca3a4e5cabf56bec"/>
+<approved hash="19,1,8b777430966b2d53"/>
 <approved hash="19,1,5984b186af7e477c"/>
 <approved hash="4,1,b2c2b15e90fdc7ac"/>
 <approved hash="4,1,d4a902bdcae7780e"/>
