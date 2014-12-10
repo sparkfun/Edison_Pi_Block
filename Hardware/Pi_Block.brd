@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -180,11 +180,11 @@ EN</text>
 <text x="12.7" y="-7.62" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">3.3V</text>
 <text x="11.43" y="-10.16" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">SDA</text>
 <text x="12.7" y="-12.7" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">SCL</text>
-<text x="11.43" y="-15.24" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">G4</text>
+<text x="11.43" y="-15.24" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">GP14</text>
 <text x="12.7" y="-17.78" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">GND</text>
-<text x="11.43" y="-20.32" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">G17</text>
-<text x="12.7" y="-22.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">G27</text>
-<text x="11.43" y="-25.4" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">G22</text>
+<text x="11.43" y="-20.32" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">GP12</text>
+<text x="12.7" y="-22.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">GP48</text>
+<text x="11.43" y="-25.4" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">GP44</text>
 <text x="12.7" y="-27.94" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">3.3V</text>
 <text x="11.43" y="-30.48" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">MOSI</text>
 <text x="12.7" y="-33.02" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">MISO</text>
@@ -193,12 +193,12 @@ EN</text>
 <text x="19.05" y="-12.7" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">GND</text>
 <text x="17.78" y="-15.24" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">TXO</text>
 <text x="19.05" y="-17.78" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">RXI</text>
-<text x="17.78" y="-20.32" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">G18</text>
+<text x="17.78" y="-20.32" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">GP13</text>
 <text x="19.05" y="-22.86" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">GND</text>
-<text x="17.78" y="-25.4" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">G23</text>
-<text x="19.05" y="-27.94" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">G24</text>
+<text x="17.78" y="-25.4" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">GP45</text>
+<text x="19.05" y="-27.94" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">GP46</text>
 <text x="17.78" y="-30.48" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">GND</text>
-<text x="19.05" y="-33.02" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">G25</text>
+<text x="19.05" y="-33.02" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">GP47</text>
 <text x="17.78" y="-35.56" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">CE0</text>
 <text x="19.05" y="-38.1" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">CE1</text>
 <text x="19.05" y="-7.62" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="top-center">5V</text>
