@@ -10,6 +10,7 @@ The Pi Block is a simple breakout board to bring the GPIO from the Intel Edison 
 Access to the GPIO pins can be accomplished through [MRAA](https://github.com/intel-iot-devkit/mraa). The GPIO number listed on the board or Linux is not the same as MRAA. Refer to the table to see which GPIO pin maps to which number in MRAA. 
 
 *MRAA pin map table based on [Intel's IOT Dev Kit Repository](https://github.com/intel-iot-devkit/mraa/blob/master/docs/edison.md)*
+
 *Pins on the Pi Block are denoted with a * after the GP number*
 
 <table class="table table-bordered">
@@ -345,13 +346,30 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 
 Repository Contents
 -------------------
-* **/Hardware** - All Eagle design files (.brd, .sch)
-* **/Production** - Test bed files and production panel files
+* **/Hardware** - Eagle PCB layout files
+* **/Production** - Files to support SparkFun production
+
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---pi-block)** - Basic hookup guide
+
+Product Versions
+----------------
+* [DEV-13044](https://www.sparkfun.com/products/13038)- Hardware version 1.0. 
+
+Version History
+---------------
+* [V_1.0](https://github.com/sparkfun/Edison_Pi_Block/tree/V_1.0) - GitHub files version 1.0
 
 License Information
 -------------------
 
-The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
-The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
 
 Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
