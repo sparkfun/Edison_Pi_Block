@@ -7,9 +7,10 @@ SparkFun Edison Pi Block
 
 The Pi Block is a simple breakout board to bring the GPIO from the Intel Edison to the user. The Block provides level-shifted access to basic GPIO, PWM, UART, I<sup>2</sup>C, and SPI. The pins are presented in the same configuration as a [Raspberry Pi Model B header](http://elinux.org/RPi_Low-level_peripherals#Model_A_and_B_.28Original.29).
 
-Access to the GPIO pins can be accomplished through [MRAA](https://github.com/intel-iot-devkit/mraa). The GPIO number listed on the board or Linux is not the same as MRAA. Refer to the table to see which GPIO pin maps to which number in MRAA. Pins on the Pi Block are highlighted in yellow.
+Access to the GPIO pins can be accomplished through [MRAA](https://github.com/intel-iot-devkit/mraa). The GPIO number listed on the board or Linux is not the same as MRAA. Refer to the table to see which GPIO pin maps to which number in MRAA. 
 
 *MRAA pin map table based on [Intel's IOT Dev Kit Repository](https://github.com/intel-iot-devkit/mraa/blob/master/docs/edison.md)*
+*Pins on the Pi Block are denoted with a * after the GP number*
 
 <table class="table table-bordered">
 <thead><tr><th class="text-center" title="Field #1">Edison Pin (Linux)</th>
@@ -20,7 +21,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <th class="text-center" title="Field #6">Pinmode1</th>
 <th class="text-center" title="Field #7">Pinmode2</th>
 </tr></thead>
-<tbody><tr class="warning" align="center"><td>GP12</td>
+<tbody><tr class="warning" align="center"><td>GP12*</td>
 <td>3</td>
 <td>J18-7 </td>
 <td align="right">20</td>
@@ -28,7 +29,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>PWM0</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP13</td>
+<tr class="warning" align="center"><td>GP13*</td>
 <td>5</td>
 <td>J18-1 </td>
 <td align="right">14</td>
@@ -36,7 +37,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>PWM1</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP14</td>
+<tr class="warning" align="center"><td>GP14*</td>
 <td>A4</td>
 <td>J19-9 </td>
 <td align="right">36</td>
@@ -52,7 +53,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td> </td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP19</td>
+<tr class="warning" align="center"><td>GP19*</td>
 <td> </td>
 <td>J18-6 </td>
 <td align="right">19</td>
@@ -60,7 +61,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>I2C-1-SCL</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP20</td>
+<tr class="warning" align="center"><td>GP20*</td>
 <td> </td>
 <td>J17-8 </td>
 <td align="right">7</td>
@@ -116,7 +117,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>SSP2_TXD</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP44</td>
+<tr class="warning" align="center"><td>GP44*</td>
 <td>A0</td>
 <td>J19-4 </td>
 <td align="right">31</td>
@@ -124,7 +125,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td> </td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP45</td>
+<tr class="warning" align="center"><td>GP45*</td>
 <td>A1</td>
 <td>J20-4 </td>
 <td align="right">45</td>
@@ -132,7 +133,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td> </td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP46</td>
+<tr class="warning" align="center"><td>GP46*</td>
 <td>A2</td>
 <td>J19-5 </td>
 <td align="right">32</td>
@@ -140,7 +141,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td> </td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP47</td>
+<tr class="warning" align="center"><td>GP47*</td>
 <td>A3</td>
 <td>J20-5 </td>
 <td align="right">46</td>
@@ -148,7 +149,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td> </td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP48</td>
+<tr class="warning" align="center"><td>GP48*</td>
 <td>7</td>
 <td>J19-6 </td>
 <td align="right">33</td>
@@ -228,7 +229,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>SD</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP109</td>
+<tr class="warning" align="center"><td>GP109*</td>
 <td> </td>
 <td>J17-11 </td>
 <td align="right">10</td>
@@ -236,7 +237,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>SPI-5-SCK</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP110</td>
+<tr class="warning" align="center"><td>GP110*</td>
 <td> </td>
 <td>J18-10 </td>
 <td align="right">23</td>
@@ -244,7 +245,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>SPI-5-CS0</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP111</td>
+<tr class="warning" align="center"><td>GP111*</td>
 <td> </td>
 <td>J17-10 </td>
 <td align="right">9</td>
@@ -252,7 +253,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>SPI-5-CS1</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP114</td>
+<tr class="warning" align="center"><td>GP114*</td>
 <td> </td>
 <td>J18-11 </td>
 <td align="right">24</td>
@@ -260,7 +261,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>SPI-5-MISO</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP115</td>
+<tr class="warning" align="center"><td>GP115*</td>
 <td> </td>
 <td>J17-12 </td>
 <td align="right">11</td>
@@ -284,7 +285,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>UART-1-RTS</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP130</td>
+<tr class="warning" align="center"><td>GP130*</td>
 <td>0</td>
 <td>J18-13 </td>
 <td align="right">26</td>
@@ -292,7 +293,7 @@ Access to the GPIO pins can be accomplished through [MRAA](https://github.com/in
 <td>UART-1-RX</td>
 <td> </td>
 </tr>
-<tr class="warning" align="center"><td>GP131</td>
+<tr class="warning" align="center"><td>GP131*</td>
 <td>1</td>
 <td>J19-8 </td>
 <td align="right">35</td>
