@@ -3,7 +3,7 @@ SparkFun Edison Pi Block
 
 ![SparkFun Edison Pi Block](https://cdn.sparkfun.com//assets/parts/1/0/0/4/6/13044-01.jpg)
 
-[*SparkFun Edison GPIO Breakout (DEV-13044)*](https://www.sparkfun.com/products/13038)
+[*SparkFun Edison Pi Block (DEV-13044)*](https://www.sparkfun.com/products/13044)
 
 The Pi Block is a simple breakout board to bring the GPIO from the Intel Edison to the user. The Block provides level-shifted access to basic GPIO, PWM, UART, I<sup>2</sup>C, and SPI. The pins are presented in the same configuration as a [Raspberry Pi Model B header](http://elinux.org/RPi_Low-level_peripherals#Model_A_and_B_.28Original.29).
 
