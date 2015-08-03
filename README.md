@@ -1,7 +1,7 @@
 SparkFun Edison Pi Block
 ========================
 
-![SparkFun Edison Pi Block]()
+![SparkFun Edison Pi Block](https://cdn.sparkfun.com//assets/parts/1/0/0/4/6/13044-01.jpg)
 
 [*SparkFun Edison GPIO Breakout (DEV-13044)*](https://www.sparkfun.com/products/13038)
 
